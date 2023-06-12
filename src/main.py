@@ -40,10 +40,11 @@ def pass_decryption(filename):
     print(passw)
 
 def list_of_passwords():
-    print("you have those passwords:")
+    print("passwords that you have:")
     files = os.listdir('./passwords/')
     for file in files:
-        print(file)
+        if file != ".gitkeep":
+            print(file)
 
 def main():
     if (os.path.isfile("./keys/private_key.pem") and os.path.isfile("./keys/public_key.pem")) :
