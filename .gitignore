@@ -1,4 +1,4 @@
 *.pem
-/keys/*
-passwords/*
+#/keys/*
+#passwords/*
 *.ipynb
