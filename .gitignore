@@ -1,4 +1,5 @@
-*.pem
+private_key.pem
+public_key.pem
 #/keys/*
 #passwords/*
 *.ipynb
